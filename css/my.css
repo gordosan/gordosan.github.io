@@ -1,0 +1,116 @@
+
+.header{
+	background: url(https://unsplash.it/1920/1080?random);
+	height: 100vh;
+	background-size: cover;
+
+}
+
+.header-inner {
+    /* limit width*/
+    max-width: 50%;
+
+    /* center */
+    margin: 0 auto;
+    padding-top: 35vh;
+}
+
+/* typography */
+.header h1 {
+    font-size: 5.5vw;
+    font-weight: 700;
+    color: white;
+    padding: 50px;
+    border: solid white;
+    background: rgba(0, 0, 0, 0.5);
+    background-blend-mode: diffrence;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+.header h2 {
+    font-weight: lighter;
+    font-size: 3.5vw;
+    color: rgba(255,255,255,0.65);
+}
+
+ .quotes-container{
+ 	z-index: -1;
+ }
+
+ .uk-navbar{
+ 	opacity: 1;
+ 	z-index: 1;
+ }
+
+
+
+ .arrows {
+	width: 60px;
+	height: 72px;
+	position: relative;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 0px;
+	mix-blend-mode: difference;
+}
+
+.arrows path:hover{
+	opacity: 1;
+}
+
+.arrows path {
+	stroke: white;
+	fill: transparent;
+	stroke-width: 2.5px;	
+    opacity: 0.7;
+
+}
+
+a.image-border {
+	text-decoration: none;
+	border: 0 none;
+	}
+/*
+==============================================
+floating
+==============================================
+*/
+
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(15%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(15%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+/*
