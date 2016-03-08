@@ -76,4 +76,28 @@ body {
 
 .fa:hover{
 	opacity: 1;
-};
+}
+
+
+
+.proj li{
+	list-style: none;
+	font-family: 'Roboto', 'helvetica neue', helvetica, arial, sans-serif;
+
+}
+
+li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	opacity: 0.6;
+	display: inline-block;
+}
+
+li a:hover{
+	opacity: 1;
+}
+
+ul{
+	padding: 0px;
+}
