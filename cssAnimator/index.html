@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Animator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="object">
+	<span class="fa fa-umbrella fa-5x"></span>
+	<h1>CSS ANIMATOR</h1>
+</div>
+
+<!--This is just the controller-->
+<div class="control">
+	<select id="animationName">
+    <option value="fadeIn">fadeIn</option>
+    <option value="expand">expand</option>
+    <option value="expandY">expandY</option>
+    <option value="expandX">expandX</option>
+    <option value="fadeOut">fadeOut</option>
+    <option value="squishY">squishY</option>
+    <option value="squishX">squishX</option>
+    <option value="squish">squish</option>
+    <option value="shake">shake</option>
+    <option value="popup">popup</option>
+    <option value="colorCycle">colorCycle</option>
+    <option value="flipZ">flipZ</option>
+    <option value="flipY">flipY</option>
+    <option value="flipX">flipX</option>
+    <option value="bounce">bounce</option>
+    <option value="stretch">stretch</option>
+    <option value="stretchX">stretchX</option>
+    <option value="stretchY">stretchY</option>
+    <option value="floating">floating</option>
+    <option value="rocking">rocking</option>
+    <option value="breathing">breathing</option>
+  </select>
+<button id="runAnimation">animate!</button>
+	<p class="checkBox"><input type="checkbox" id="loop" value="loop" label="the">Loop
+		<input type="checkbox" id="reverse" value="reverse">Reverse</p>
+
+
+	<div class="howTo">
+		<h2>CSS Animator is a set of pre-made animations, written in only CSS</h2>
+		<p>Just add the stylesheet: </p>
+		<p class="sample"> &ltlink rel="stylesheet" href="//cssAnimator.css"&gt</p>
+		<p>And apply the CSS class <u>animate</u> followed by the name of the animation to the element:</p>
+		<p class="sample" id="apply"> &ltdiv id="object" class="animate fadeIn"&gt</p>
+		<p>To make it play in a loop, or reverse, add the class <u>infinite</u> and/or <u>reverse</u> respectively</p>
+
+	</div>
+	<footer>
+		<p>Check out the <a href="http://gordosan.github.io/css/cssAnimator.css" target="_blank"> CSS here</a></p><br>
+		<p>Created by <a href="http://gordosan.github.io/" target="_blank">Gordon</a> for the
+			<a href="https://en.wikipedia.org/wiki/Internet" target="_blank">the internet ♥</a></p>
+	</footer>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
