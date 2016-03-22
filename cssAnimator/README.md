@@ -21,4 +21,4 @@ CSS Animator is a set of pre-made animations, written in only CSS
 <div id="object" class="animate fadeIn reverse infinite">
 ```
 
-If you would like to play around with the code a bit, you can check it out on [codepen](http://gordosan.github.io/cssAnimator/).
+You can check it out [here](http://gordosan.github.io/cssAnimator/).
