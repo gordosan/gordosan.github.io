@@ -3,6 +3,8 @@
 html { 
 	width: 100%; 
 	-webkit-font-smoothing: antialiased; 
+	background: url(https://unsplash.it/1920/1080?image=327) fixed;
+	background-size: cover;
 }
 
 body { 
